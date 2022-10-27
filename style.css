@@ -1,0 +1,62 @@
+/* add your CSS here */
+.stron{
+  font-weight: bold;
+}
+
+img{
+  border-radius: 5px;
+}
+body{
+  /*background-color: #fafbfc;
+  */
+  background-color: #f8dab7;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px; 
+}
+
+.text{
+  background-color: rgba(249, 248, 240, 70%);
+  border: 1px solid rgba(0,0,0,3.5%);
+  position: static;
+  top: 450px;
+  bottom: 0;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  resize: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border: 0 solid white;
+  color: red;
+  background-color: white;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  position: static;
+  margin-bottom: 10px;
+}
+img{
+  height: 200px;
+  width: 300px;
+}
+.name{
+  text-align: center;
+  color: black;
+  border: 0 solid white;
+  padding: 5px 5px 5px 5px
+  
+}
+
+ul{
+  list-style-type: none;
+  padding: 5px 5px 5px 5px;
+}
+
