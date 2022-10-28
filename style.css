@@ -7,27 +7,31 @@ img{
   border-radius: 5px;
 }
 body{
-  /*background-color: #fafbfc;
-  */
   background-color: #f8dab7;
   width: 320px;
-  min-width: 320px;
-  max-width: 320px; 
+  min-width: 330px;
+  max-width: 330px;
+  border: 1px solid rgb(19, 211, 45)
 }
 
 .text{
+
   background-color: rgba(249, 248, 240, 70%);
   border: 1px solid rgba(0,0,0,3.5%);
   position: static;
   top: 450px;
   bottom: 0;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  resize: none;
-  padding: 5px 5px 5px 5px;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  overflow: clip;
+  padding: 5px 0 5px 5px;
   border-radius: 10px;
   
+}
+.center-box{
+  align-self: center;
+  transform: translate(0.3%);
 }
 
 .image{
@@ -59,4 +63,3 @@ ul{
   list-style-type: none;
   padding: 5px 5px 5px 5px;
 }
-
