@@ -8,12 +8,16 @@ img{
 }
 body{
   background-color: #f8dab7;
+  display: flex;
+  place-content: center;
+}
+
+.container{
   width: 320px;
   min-width: 330px;
   max-width: 330px;
   border: 1px solid rgb(19, 211, 45)
 }
-
 .text{
 
   background-color: rgba(249, 248, 240, 70%);
